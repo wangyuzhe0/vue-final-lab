@@ -1,14 +1,11 @@
 # Social Anti-Fake News System (Vue 3 + Vite)
 
-This project is a course assignment demo: users can submit news, the community votes to determine whether it is fake, and explains reasons via comments. Majority votes decide “Fake/Not Fake”; comments and votes are saved only in front-end state (cleared on refresh), meeting the “simple SPA” requirement.
-
 ## Features
 - Home: news list, filter (All/Fake/Not Fake), items-per-page selection, pagination
 - Detail: full news info (topic, body, status, reporter, time, image URL), vote stats, comment pagination
 - Vote Page: standalone vote page, supports comment and image link (URL)
 - Decision Rule: majority decides “Fake/Not Fake”; tie = “Pending”
 - Storage: Pinia manages front-end state only; no server POST. Refresh clears newly added comments.
-- Mock Data: auto-generates 30 news items and multiple comments to ensure pagination
 
 ## Tech Stack
 - Vue 3 + Vite
@@ -25,15 +22,6 @@ npm i
 npm run dev
 ```
 
-## Build & Preview
-```bash
-npm run build
-```
-
-```bash
-npm run preview
-```
-
 ## Deploy to Vercel
 - Push the repo to GitHub, then import it in Vercel. Choose **Vite** or use the default `vercel.json` in this repo.
 - Build command: `npm run build`, output directory: `dist`.
@@ -41,18 +29,19 @@ npm run preview
   ```bash
   vercel --prod
   ```
-  (Requires local `vercel` installed and logged in)
 
 ## Team Info (fill as required)
-- Team Name: `<your team>`
+- Team Name: `<uniqu>`
 - Members:
-  - Student ID: `<id1>`, Name: `<name1>`
-  - Student ID: `<id2>`, Name: `<name2>`
-  - Student ID: `<id3>`, Name: `<name3>`
+  - Student ID: `<20232054>`, Name: `<wangyuzhe>`
+  Contribution rate:40%
+  - Student ID: `<20232081>`, Name: `<liuwenhao>`
+  Contribution rate:30%
+  - Student ID: `<20232097>`, Name: `<wangpengyue>`
+  Contribution rate:30%
 - Video link (2–3 min demo): `<paste your video URL>`
-- Live site URL (Vercel): `<paste your production URL>`
+- Live site URL (Vercel): `https://vue-final-lab.vercel.app/`
 
-> Note: Please create/join your team in the course system and ensure this README is complete before final submission.
 
 ## Directory Structure
 - `src/pages/Home.vue`: List, filter, pagination
