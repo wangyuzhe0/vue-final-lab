@@ -22,14 +22,6 @@ npm i
 npm run dev
 ```
 
-## Deploy to Vercel
-- Push the repo to GitHub, then import it in Vercel. Choose **Vite** or use the default `vercel.json` in this repo.
-- Build command: `npm run build`, output directory: `dist`.
-- CLI option:
-  ```bash
-  vercel --prod
-  ```
-
 ## Team Info (fill as required)
 - Team Name: `<uniqu>`
 - Members:
