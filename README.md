@@ -9,13 +9,14 @@
   Contribution rate:30%
   - Student ID: `<20232097>`, Name: `<wangpengyue>`
   Contribution rate:30%
-- Video link (2–3 min demo): （<video controls src="the video .mp4" title="Title"></video>）    'In the project'
+- Video link (2–3 min demo):<video controls src="the video.mp4" title="Title"></video>
+'In the project'
 - Live site URL (Vercel): `https://vue-final-lab-git-main-wangyuzhe0s-projects.vercel.app/`
 `https://vue-final-lab.vercel.app/`
-The ppt is:[text](<template for presentation.pptx>)   'In the project'
-The address of the project in the class chartchai is:
+-The ppt is:[text](<template for presentation.pptx>)   'In the project'
+- The address of the project in the class chartchai is:
 https://github.com/chartchai-class/project-01-anti-fakenews-cn-unique
-The address of the project in my account is:
+- The address of the project in my account is:
 https://github.com/wangyuzhe0/vue-final-lab
 
 
